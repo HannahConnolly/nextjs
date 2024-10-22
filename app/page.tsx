@@ -1,9 +1,7 @@
-import { Metadata } from 'next'
+// maps to root `/` URL
  
-export const metadata: Metadata = {
-  title: 'Next.js',
-}
+import variables from './variables.module.scss'
  
 export default function Page() {
-  return '...'
+  return <h1 style={{ color: variables.primaryColor }}>Hello, Next.js!</h1>
 }

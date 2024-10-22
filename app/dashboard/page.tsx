@@ -1,4 +1,3 @@
-// `app/page.tsx` is the UI for the `/` URL
 export default function Page() {
-    return <h1>Hello, Dashboard page!</h1>
+    return <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
   }
